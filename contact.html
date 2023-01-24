@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <script src="https://kit.fontawesome.com/9fefadb32c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+
+
+   <style>
+
+    nav.navbar ul.navbar-nav li a.nav-link.active::after{
+            transform: translateX(-5.3rem);
+     }
+     hr{
+        width: 50px;
+        height: 2px;
+        text-align: center;
+    }
+
+
+
+    .about h1{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .about h1 span{
+        color: coral;
+    }
+
+    .about h2{
+        margin-bottom: 10px;
+    }
+
+   
+
+    .subbox{
+        background: coral;
+        width: 100%;
+        height: 150px;
+    }
+
+    .subbox input{
+        margin-top: 4rem;
+        margin-left: 3rem;
+        height: 2.5rem;
+        background: white;
+        outline: none;
+        
+    }
+
+    .subbox button{
+        padding: 8px 20px;
+        background: black;
+        margin-left: 2rem;
+        color: white;
+        font-weight: 600;
+        outline: none;
+        border: none;
+        transition: all 300ms ease;
+    }
+
+    .subbox button:hover{
+        background: white;
+        color: black;
+        border-radius: 10px;
+    }
+
+
+
+    @media screen and (max-width:768px){
+       
+    }
+   </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+        <div class="container">
+          <a> <img src="img/logo1.png"></a>
+
+          <div id="NavBar">
+                <div class="Bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+          </div>
+          
+          <div class="collapse navbar-collapse nav-items" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="Blog" class="container pt-5 mt-5">
+        <h2 class="font-weight-bold pt-5">CONTACT US</h2>
+        <hr class="bg-warning">
+      </section>
+
+      <section id="contact" class="container my-5 pb-5">
+        <div class="row">
+            <div class="contact-des col-lg-6 col-md-6 col-sm-12">
+              <div class="Des mb-2">
+                <h1>CONTACT INFO</h1>
+                <h4 >ADDRESS</h4>
+                <P>123 STREET NAME,CITY,US</P>
+              </div>
+
+              <div class="Des mb-2">
+                <h4 >PHONE</h4>
+                <P>(123) 456-7890</P>
+              </div>
+
+              <div class="Des mb-2">
+                <h4 >EMAIL</h4>
+                <P>mail@example.com</P>
+              </div>
+            </div>
+            <div class="contact-des col-lg-6 col-md-6 col-sm-12">
+                <h1 class="mb-4">SUBSCRIBE <span> NOW </span></h1>
+                <div class="subbox">
+                    <input type="text" placeholder="Email Here">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <footer class="footer my-5">
+        <div class="container">
+          <div class="row">
+            <div class="footer-item col-lg-3 col-md-6 col-sm-12 my-5">
+              <img class="img-fluid" src="img/logo2.png">
+              <p>Lorem ipsum dolor sit amet, doloremque vero. Nesciunt dolorum, dolores perspiciatis amet deleniti harum est libero.</p>
+            </div>
+
+
+            <div class="footer-item col-lg-3 col-md-6 col-sm-12">
+              <h3>Features</h3>
+              <ul class="py-2">
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">BOYS</a></li>
+                <li><a href="#">GIRLS</a></li>
+                <li><a href="#">NEW ARRIVALS</a></li>
+                <li><a href="#">SHOES</a></li>
+                <li><a href="#">CLOTHS</a></li>
+              </ul>
+            </div>
+
+
+            <div class="footer-item col-lg-3 col-md-6 col-sm-12">
+              <h3 class="mb-3">Contact Us</h3>
+              <div class="contactdes mb-2">
+                <h4 >ADDRESS</h4>
+                <P>123 STREET NAME,CITY,US</P>
+              </div>
+
+              <div class="contactdes mb-2">
+                <h4 >PHONE</h4>
+                <P>(123) 456-7890</P>
+              </div>
+
+              <div class="contactdes mb-2">
+                <h4 >EMAIL</h4>
+                <P>mail@example.com</P>
+              </div>
+            </div>
+
+
+
+            <div class="footer-item col-lg-3 col-md-6 col-sm-12">
+              <h3 class="pb-2">Instagram</h3>
+              <div class="row">
+                <img class="img-fluid w-25 height-100 m-2" src="img/insta/1.jpg" alt="">
+                <img class="img-fluid w-25 height-100 m-2" src="img/insta/2.jpg" alt="">
+                <img class="img-fluid w-25 height-100 m-2" src="img/insta/3.jpg" alt="">
+                <img class="img-fluid w-25 height-100 m-2" src="img/insta/4.jpg" alt="">
+                <img class="img-fluid w-25 height-100 m-2" src="img/insta/5.jpg" alt="">
+              </div>
+            </div>
+
+          </div>
+          <div class="copyright mt-5 py-3">
+            <div class="row mx-auto">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <img src="img/payment.png" alt="">
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+              <p>rymo eCommerce @ 2023. All Rights Reserved.</p>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
